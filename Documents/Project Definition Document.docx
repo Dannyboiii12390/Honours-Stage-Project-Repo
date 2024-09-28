@@ -2,23 +2,44 @@
 Xiang qi (象棋) is a two-player strategy board game, often known as Chinese chess. The board is 9 lines wide by 10 lines long. It is divided into 2 territories by a river in the middle. There are 32 pieces in total with 16 per player. The pieces include generals, advisors, chariots, cannons, horses, elephants, and soldiers. The objective is to capture the opponents general or marshal. Each piece has different rules for how it moves. There is no concept of stalemate in Xiang qi, unlike chess.
 
 Why is the project being undertaken?
-Why THIS project?
+This project Is being undertaken for a multitude of reasons. One reason is skill development. Many games, chess and Xiang qi included, are designed to challenge player and help them develop various skills, such as problem-solving and strategic thinking. Social Interaction. Multiplayer games allow people to connect and play with friends or meet new people from around the world. This project will include a multiplayer element, Where 2 players can play against each other. Games like chess and Xiang qi promote competition, for some the competitive aspect of games is very appealing. Whether its competing against other or trying to beat personal bests, the challenge can be highly motivating. Playing games, especially board games can be a way to unwind and de-stress after a long day. The immersive nature of games can help players take their minds off their worries and relax.
+
+
 What is the background?
 Rationale? – why is it worth doing
-expected benefits?
 To who?
 
 What will the project deliver?
+The project will be a website. That will allow everyone to use the game, it will also allow people to easily play against each other. And mainly, so that everyone can play the game whenever they want to, wherever they want to.
+
+Primary Objectives
+Objective
+How will these be Complete
+A website anyone can visit
+
+A functioning game
+
+A way for anyone to join search for a game
+
+Secondary Objectives
+Objective
+How will these be complete
+A button explaining all the rules / How the pieces move 
+
+An AI for the players to play against
+
+Cross-Platform Compatibility
+
+
+
 What is the scope of the project?
-Primary objectives? – how will I know these are complete?
-Secondary Objectives? – How will I know these are complete?
 How will the success of the project as a whole be judged?
 Appropriate programme competency?
 
 How will the project be delivered?
-What methodology? – agile? SCRUM? WATERFALL ?
-What tools? – software?
-Any surveys?
+Agile has multiple benefits. It allows for iterative development, meaning adjustments based on feedback and changing requirements without derailing the entire project. Its iterative cycles, enable the delivery of functional parts of the game more quickly, allowing for early testing and feedback. This results in improved quality continuous integration and deployment results in a more stable and polished product.
+However, when the requirements are clearly outlined well documented and unlikely to change, as this project is, the waterfall approach can be more efficient. The simplicity and controlled nature of waterfall makes it easier to manage and control, especially when working in small teams, such as just myself. It also provides a structured and sequential process, which can lead to more predictable outcome and easier project management. Which when working on a project with a strict deadline makes waterfall a better approach.
+As this game will be a website, it forces me to use HTML, CSS and JavaScript. However tools such as Typescript and react will also be used, as this will speed up the development process
 How will these be managed?
 How will results be evaluated and used?
 At the end of the project how will I assess whether the methodology and tools were appropriate and successful?

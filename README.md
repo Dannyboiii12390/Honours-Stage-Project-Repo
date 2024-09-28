@@ -1,5 +1,8 @@
 # Honours-Stage-Project-Repo
 
+https://github.com/Dannyboiii12390/Honours-Stage-Project-Repo
+
+
 Xiangqi (https://en.wikipedia.org/wiki/Xiangqi) also known as Chinese chess is a kind of two-player antagonistic game originated in China. Since the rules are simple and interesting, it has become a very popular chess game. The game represents a battle between two armies, with the primary object being to checkmate the enemy's general (king). 
 
 Xiangqi uses a square grid board and two-color (red and black) round pieces to play games. There are ten horizontal lines and nine vertical lines on the board, which divides the board into 90 intersections. There are 32 pieces in Xiangqi, 16 pieces of each color, which is divided into 7 different arms. The two sides play chess alternately, and the one who checkmates the opponent's general (king) first wins. 
