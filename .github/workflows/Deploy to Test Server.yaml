@@ -19,7 +19,6 @@ jobs:
           node-version: '14'  # Adjust to your needs
 
       - name: Install dependencies
-        working-directory: ./frontend  # Specify the directory containing package.json
         run: |
           npm install
 
