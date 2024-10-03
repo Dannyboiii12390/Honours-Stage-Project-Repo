@@ -24,7 +24,7 @@ jobs:
 
       - name: Build project
         run: |
-          npm run build  # Adjust to your build command
+          ng build  # Adjust to your build command
 
       - name: Deploy to server
         run: |
