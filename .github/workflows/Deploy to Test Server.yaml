@@ -28,4 +28,4 @@ jobs:
 
       - name: Deploy to server
         run: |
-          cp -R ./frontend/dist/* /path/to/your/deployment/directory  # Adjust path
+          cp -R ./dist/* /var/www/html/  # Adjust path
