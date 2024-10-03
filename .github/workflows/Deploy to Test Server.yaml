@@ -1,4 +1,4 @@
-name: Deploy Website
+name: Deploy Angular Application
 
 on:
   push:
@@ -19,14 +19,15 @@ jobs:
           node-version: '14'  # Adjust to your needs
 
       - name: Install dependencies
+        working-directory: ./frontend  # Specify the directory containing package.json
         run: |
           npm install
-          npm install --save-dev @angular/cli
 
       - name: Build project
+        working-directory: ./frontend  # Specify the directory containing package.json
         run: |
-          ng build  # Adjust to your build command
+          npm run build -- --prod  # Adjust for your production build or other configurations
 
       - name: Deploy to server
         run: |
-          cp -R ./dist/* /var/www/html/
+          cp -R ./frontend/dist/* /path/to/your/deployment/directory  # Adjust path
