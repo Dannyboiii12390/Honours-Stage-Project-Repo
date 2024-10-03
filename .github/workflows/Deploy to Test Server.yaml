@@ -23,7 +23,6 @@ jobs:
           npm install
 
       - name: Build project
-        working-directory: ./frontend  # Specify the directory containing package.json
         run: |
           npm run build -- --prod  # Adjust for your production build or other configurations
 
