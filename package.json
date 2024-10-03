@@ -1,4 +1,4 @@
-dependencies": {
+dependencies": [
        "bcryptjs": "*",
        "body-parser": "*",
        "connect-flash": "*",
@@ -12,4 +12,4 @@ dependencies": {
        "mongoose": "*",
        "passport": "*",
        "passport-http": "*",
-       "passport-local": "*"   }
+       "passport-local": "*"   ]
