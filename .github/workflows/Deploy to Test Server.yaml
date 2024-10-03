@@ -24,7 +24,7 @@ jobs:
 
       - name: Build project
         run: |
-          npm run build  --deploy-url /Main/ # Adjust for your production build or other configurations
+          npm run build # Adjust for your production build or other configurations
 
       - name: Deploy to server
         run: |
