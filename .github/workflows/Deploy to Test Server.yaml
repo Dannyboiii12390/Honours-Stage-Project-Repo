@@ -28,4 +28,4 @@ jobs:
 
       - name: Deploy to server
         run: |
-          cp -R ./dist/* /  # Adjust path
+          cp -R ./dist/* /var/www/html/  # Adjust path
