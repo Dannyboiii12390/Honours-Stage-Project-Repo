@@ -3,11 +3,11 @@ name: Deploy Angular Application
 on:
   push:
     branches:
-      - main  # Adjust as needed
+      - main
 
 jobs:
   deploy:
-    runs-on: self-hosted  # This specifies a self-hosted runner
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'  # Adjust to your needs
+          node-version: '20'
 
       - name: Install dependencies
         run: |
@@ -24,7 +24,7 @@ jobs:
 
       - name: Build project
         run: |
-          npm run build # Adjust for your production build or other configurations
+          ng build --watch
 
       - name: Deploy to server
         run: |
