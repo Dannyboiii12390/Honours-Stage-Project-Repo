@@ -24,7 +24,7 @@ jobs:
 
       - name: Build project
         run: |
-          ng build --watch
+          npm build --watch
 
       - name: Deploy to server
         run: |
