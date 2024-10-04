@@ -21,12 +21,11 @@ jobs:
       - name: Install dependencies
         run: |
            npm install
-           npm install ng
 
       - name: Build project
         run: |
-          ng build --watch
+          npm build
 
       - name: Deploy to server
         run: |
-          cp -R ./dist/* /var/www/html/  # Adjust path
+          cp -R ./dist/* /  # Adjust path
