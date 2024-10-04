@@ -20,11 +20,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install
+           ng install
 
       - name: Build project
         run: |
-          npm build --watch
+          ng build --watch
 
       - name: Deploy to server
         run: |
