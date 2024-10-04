@@ -20,7 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-           ng install
+           npm install
+           npm install ng
 
       - name: Build project
         run: |
