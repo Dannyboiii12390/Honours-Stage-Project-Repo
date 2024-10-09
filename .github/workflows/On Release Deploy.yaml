@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: windows-runner
+    runs-on: Windows
 
     steps:
       - name: Checkout repository

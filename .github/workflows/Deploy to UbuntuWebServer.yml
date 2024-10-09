@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: UbuntuSelfHosted
 
     steps:
       - name: Checkout repository
@@ -28,4 +28,4 @@ jobs:
 
       - name: Deploy to server
         run: |
-          cp -R ./dist/* /var/www/html/  # Adjust path
+          cp -R ./dist/* /var/www/Proj/  # Adjust path
